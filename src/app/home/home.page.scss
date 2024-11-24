@@ -1,0 +1,40 @@
+/* Estilo para el contenido principal */
+ion-content {
+  --background: linear-gradient(to bottom, #f3e5f5, #e1bee7); /* Fondo degradado suave */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Contenedor principal */
+#main-container {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.95); /* Fondo semiblanco */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra sutil */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Encabezado del mensaje */
+#main-container h1 {
+  color: #6a1b9a; /* Morado intenso */
+  font-size: 2.8em;
+  margin-bottom: 12px;
+  font-family: 'Arial', sans-serif; /* Fuente sencilla y limpia */
+}
+
+/* Subtítulo */
+#main-container p {
+  color: #333; /* Gris oscuro */
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-family: 'Verdana', sans-serif;
+}
+
+/* Efecto de hover en el contenedor */
+#main-container:hover {
+  transform: scale(1.03); /* Ligero agrandamiento */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más profunda */
+}
